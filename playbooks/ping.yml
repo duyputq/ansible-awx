@@ -2,4 +2,9 @@
 - hosts: all
   gather_facts: false
   tasks:
-    - ping:
+    - name: Ping host
+      ansible.builtin.ping:
+
+    - name: Show date using community.general
+      community.general.date_time:
+        format: "%Y-%m-%d %H:%M:%S"
