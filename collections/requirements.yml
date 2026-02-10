@@ -1,5 +1,6 @@
 ---
 collections:
   - name: ansible.windows
+    type: git
     source: https://github.com/ansible-collections/ansible.windows.git
-    version: main
+    version: 2.2.0
