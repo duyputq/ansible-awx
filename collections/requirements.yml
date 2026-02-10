@@ -3,4 +3,24 @@ collections:
   - name: ansible.windows
     type: git
     source: https://github.com/ansible-collections/ansible.windows.git
-    version: 2.2.0
+    version: 2.7.0
+
+  - name: community.windows
+    type: git
+    source: https://github.com/ansible-collections/community.windows.git
+    version: 2.1.0
+
+  - name: community.general
+    type: git
+    source: https://github.com/ansible-collections/community.general.git
+    version: 10.5.0
+
+  - name: ansible.posix
+    type: git
+    source: https://github.com/ansible-collections/ansible.posix.git
+    version: 1.5.4
+
+  - name: community.vmware
+    type: git
+    source: https://github.com/ansible-collections/community.vmware.git
+    version: 5.5.0
